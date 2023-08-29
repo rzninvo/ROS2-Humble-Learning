@@ -1,0 +1,32 @@
+[0.706s] Invoking command in '/home/rohamzn/ros2_test_ws/src/launch_tutorial': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ros2_test_ws/build/launch_tutorial/prefix_override:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/rohamzn/ros2_test_ws/build/launch_tutorial/build install --record /home/rohamzn/ros2_test_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[0.863s] running egg_info
+[0.864s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.864s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.864s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[0.864s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.865s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.865s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] running install
+[0.865s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.865s]   warnings.warn(
+[0.866s] running install_lib
+[0.869s] running install_data
+[0.869s] copying launch/turtlesim_rviz.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/turtlesim_world_3.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/broadcaster_listener.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/turtlesim_world_2.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/fixed_broadcaster.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/launch_turtlesim.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/turtlesim_world_1.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] copying launch/mimic.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.869s] creating /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/config
+[0.869s] copying config/turtlesim.yaml -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/config
+[0.869s] running install_egg_info
+[0.869s] removing '/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.869s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[0.869s] running install_scripts
+[0.881s] writing list of installed files to '/home/rohamzn/ros2_test_ws/build/launch_tutorial/install.log'
+[0.900s] Invoked command in '/home/rohamzn/ros2_test_ws/src/launch_tutorial' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ros2_test_ws/build/launch_tutorial/prefix_override:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/rohamzn/ros2_test_ws/build/launch_tutorial/build install --record /home/rohamzn/ros2_test_ws/build/launch_tutorial/install.log --single-version-externally-managed

@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rohamzn/ROS2-Humble-Learning/install/tutorial_interfaces/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/install/turtlesim/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/install/polygon_plugins/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/install/polygon_base/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/install/more_interfaces/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/install/action_tutorials_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/my_package/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/polygon_base/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim/include/**",
+        "/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

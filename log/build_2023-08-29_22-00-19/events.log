@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000644] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000673] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000682] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.000690] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.000696] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000702] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000709] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000715] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.000721] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.000728] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000735] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000742] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000749] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000755] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.000762] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000769] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000777] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict([('turtlesim', '/home/rohamzn/ros2_test_ws/install/turtlesim')])}
+[0.000789] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.009034] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.009609] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.009639] (learning_tf2_cpp) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--build', '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp', '--', '-j20', '-l20'], 'cwd': '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib:/home/rohamzn/ros2_test_ws/install/polygon_plugins/lib:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '2951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2679,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44794a8a_a997_479f_a76c_7f08728689c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.036295] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099982] (-) TimerEvent: {}
+[0.169725] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.185179] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.186877] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.191035] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.198419] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.200040] (-) TimerEvent: {}
+[0.208830] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.279091] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300333] (-) TimerEvent: {}
+[0.309678] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.310782] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.329833] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.400528] (-) TimerEvent: {}
+[0.407082] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.411988] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.500729] (-) TimerEvent: {}
+[0.601055] (-) TimerEvent: {}
+[0.607320] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/home/rohamzn/ros2_test_ws/install/turtlesim/share/turtlesim/cmake)\n'}
+[0.648274] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.664508] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.665584] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.665679] (learning_tf2_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.684757] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.701151] (-) TimerEvent: {}
+[0.734702] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.734850] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.734910] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.735124] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.735312] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.735527] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.735848] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.735928] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.736089] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.736377] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.743492] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:31 (add_executable):\n'}
+[0.743599] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.743658] (learning_tf2_cpp) StderrLine: {'line': b'  static_turtle_tf2_broadcaster because files in some directories may\n'}
+[0.743711] (learning_tf2_cpp) StderrLine: {'line': b'  conflict with libraries in implicit directories:\n'}
+[0.743763] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.743814] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.743866] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.743916] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.743966] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.744016] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.744065] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.745643] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:40 (add_executable):\n'}
+[0.745723] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.745780] (learning_tf2_cpp) StderrLine: {'line': b'  turtle_tf2_broadcaster because files in some directories may conflict with\n'}
+[0.745833] (learning_tf2_cpp) StderrLine: {'line': b'  libraries in implicit directories:\n'}
+[0.745885] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.745936] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.745987] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.746037] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.746086] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.746136] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.746186] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.747636] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:50 (add_executable):\n'}
+[0.747715] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target turtle_tf2_listener\n'}
+[0.747772] (learning_tf2_cpp) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[0.747825] (learning_tf2_cpp) StderrLine: {'line': b'  directories:\n'}
+[0.747876] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.747927] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.747978] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.748027] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.748077] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.748126] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.748176] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.749755] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:60 (add_executable):\n'}
+[0.749844] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.749904] (learning_tf2_cpp) StderrLine: {'line': b'  turtle_tf2_listener_debug because files in some directories may conflict\n'}
+[0.749965] (learning_tf2_cpp) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[0.750017] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.750069] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.750120] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.750170] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.750221] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.750271] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.750321] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.751442] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:70 (add_executable):\n'}
+[0.751521] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.751578] (learning_tf2_cpp) StderrLine: {'line': b'  fixed_frame_tf2_broadcaster because files in some directories may conflict\n'}
+[0.751630] (learning_tf2_cpp) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[0.751681] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.751732] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.751790] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.751840] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.751890] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.751942] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.751991] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.753211] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:78 (add_executable):\n'}
+[0.753291] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.753348] (learning_tf2_cpp) StderrLine: {'line': b'  dynamic_frame_tf2_broadcaster because files in some directories may\n'}
+[0.753401] (learning_tf2_cpp) StderrLine: {'line': b'  conflict with libraries in implicit directories:\n'}
+[0.753452] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.753504] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.753555] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.753605] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.753655] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.753704] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.753754] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.755687] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:86 (add_executable):\n'}
+[0.755765] (learning_tf2_cpp) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.755822] (learning_tf2_cpp) StderrLine: {'line': b'  turtle_tf2_message_filter because files in some directories may conflict\n'}
+[0.755874] (learning_tf2_cpp) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[0.755924] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.755975] (learning_tf2_cpp) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.756026] (learning_tf2_cpp) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.756081] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.756132] (learning_tf2_cpp) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.756182] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[0.756232] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.756560] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.757811] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/rohamzn/ros2_test_ws/build/learning_tf2_cpp\n'}
+[0.771711] (learning_tf2_cpp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_message_filter.dir/src/turtle_tf2_message_filter.cpp.o\x1b[0m\n'}
+[0.774411] (learning_tf2_cpp) StdoutLine: {'line': b'[ 21%] Built target static_turtle_tf2_broadcaster\n'}
+[0.774569] (learning_tf2_cpp) StdoutLine: {'line': b'[ 35%] Built target turtle_tf2_listener\n'}
+[0.774791] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o\x1b[0m\n'}
+[0.774868] (learning_tf2_cpp) StdoutLine: {'line': b'[ 57%] Built target fixed_frame_tf2_broadcaster\n'}
+[0.775288] (learning_tf2_cpp) StdoutLine: {'line': b'[ 71%] Built target turtle_tf2_broadcaster\n'}
+[0.777287] (learning_tf2_cpp) StdoutLine: {'line': b'[ 85%] Built target dynamic_frame_tf2_broadcaster\n'}
+[0.801283] (-) TimerEvent: {}
+[0.901689] (-) TimerEvent: {}
+[1.002064] (-) TimerEvent: {}
+[1.102429] (-) TimerEvent: {}
+[1.202788] (-) TimerEvent: {}
+[1.303125] (-) TimerEvent: {}
+[1.403496] (-) TimerEvent: {}
+[1.503819] (-) TimerEvent: {}
+[1.604196] (-) TimerEvent: {}
+[1.704466] (-) TimerEvent: {}
+[1.804767] (-) TimerEvent: {}
+[1.905009] (-) TimerEvent: {}
+[2.005251] (-) TimerEvent: {}
+[2.105493] (-) TimerEvent: {}
+[2.205759] (-) TimerEvent: {}
+[2.305997] (-) TimerEvent: {}
+[2.406365] (-) TimerEvent: {}
+[2.506720] (-) TimerEvent: {}
+[2.607090] (-) TimerEvent: {}
+[2.707377] (-) TimerEvent: {}
+[2.807691] (-) TimerEvent: {}
+[2.907925] (-) TimerEvent: {}
+[3.008194] (-) TimerEvent: {}
+[3.108558] (-) TimerEvent: {}
+[3.208791] (-) TimerEvent: {}
+[3.309039] (-) TimerEvent: {}
+[3.409301] (-) TimerEvent: {}
+[3.509571] (-) TimerEvent: {}
+[3.607144] (learning_tf2_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_listener_debug\x1b[0m\n'}
+[3.609722] (-) TimerEvent: {}
+[3.710024] (-) TimerEvent: {}
+[3.736953] (learning_tf2_cpp) StdoutLine: {'line': b'[ 92%] Built target turtle_tf2_listener_debug\n'}
+[3.810217] (-) TimerEvent: {}
+[3.910555] (-) TimerEvent: {}
+[4.010798] (-) TimerEvent: {}
+[4.111097] (-) TimerEvent: {}
+[4.211402] (-) TimerEvent: {}
+[4.311700] (-) TimerEvent: {}
+[4.412033] (-) TimerEvent: {}
+[4.512371] (-) TimerEvent: {}
+[4.612700] (-) TimerEvent: {}
+[4.712905] (-) TimerEvent: {}
+[4.813140] (-) TimerEvent: {}
+[4.913455] (-) TimerEvent: {}
+[5.013759] (-) TimerEvent: {}
+[5.114121] (-) TimerEvent: {}
+[5.214444] (-) TimerEvent: {}
+[5.314764] (-) TimerEvent: {}
+[5.332122] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_message_filter\x1b[0m\n'}
+[5.414968] (-) TimerEvent: {}
+[5.515326] (-) TimerEvent: {}
+[5.569673] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_message_filter\n'}
+[5.582333] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[5.615403] (-) TimerEvent: {}
+[5.620382] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[5.640458] (learning_tf2_cpp) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--install', '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp'], 'cwd': '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib:/home/rohamzn/ros2_test_ws/install/polygon_plugins/lib:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '2951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2679,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44794a8a_a997_479f_a76c_7f08728689c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/opt/ros/humble')]), 'shell': False}
+[5.656753] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.656960] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster\n'}
+[5.657000] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster\n'}
+[5.657029] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener\n'}
+[5.657074] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener_debug\n'}
+[5.657961] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener_debug" to ""\n'}
+[5.658030] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster\n'}
+[5.658062] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster\n'}
+[5.658090] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_message_filter\n'}
+[5.659815] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_message_filter" to ""\n'}
+[5.659880] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch\n'}
+[5.659926] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py\n'}
+[5.659962] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py\n'}
+[5.659988] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/start_tf2_debug_demo.launch.py\n'}
+[5.660014] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py\n'}
+[5.660039] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[5.660064] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[5.660088] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[5.660113] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[5.660138] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[5.660175] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[5.660201] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[5.660224] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[5.660245] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[5.660267] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[5.660289] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[5.660311] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[5.660332] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[5.660355] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[5.660377] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[5.663033] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[5.713380] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[5.713721] (-) EventReactorShutdown: {}

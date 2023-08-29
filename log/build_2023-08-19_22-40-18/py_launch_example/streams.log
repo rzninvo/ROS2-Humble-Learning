@@ -1,0 +1,22 @@
+[0.688s] Invoking command in '/home/rohamzn/ros2_test_ws/src/py_launch_example': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ros2_test_ws/build/py_launch_example/prefix_override:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/rohamzn/ros2_test_ws/build/py_launch_example/build install --record /home/rohamzn/ros2_test_ws/build/py_launch_example/install.log --single-version-externally-managed
+[0.848s] running egg_info
+[0.849s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[0.849s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[0.849s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[0.849s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[0.849s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[0.850s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.850s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.850s]   warnings.warn(
+[0.850s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.851s] running build_py
+[0.851s] running install
+[0.851s] running install_lib
+[0.852s] running install_data
+[0.852s] running install_egg_info
+[0.853s] removing '/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)
+[0.853s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[0.853s] running install_scripts
+[0.866s] writing list of installed files to '/home/rohamzn/ros2_test_ws/build/py_launch_example/install.log'
+[0.882s] Invoked command in '/home/rohamzn/ros2_test_ws/src/py_launch_example' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ros2_test_ws/build/py_launch_example/prefix_override:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/rohamzn/ros2_test_ws/build/py_launch_example/build install --record /home/rohamzn/ros2_test_ws/build/py_launch_example/install.log --single-version-externally-managed

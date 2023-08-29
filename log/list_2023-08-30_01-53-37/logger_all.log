@@ -1,0 +1,267 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/rohamzn/ROS2-Humble-Learning']
+[0.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/rohamzn/ROS2-Humble-Learning'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0634872ec0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f06348286d0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f06348286d0>>, mixin_verb=('list',))
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rohamzn/ROS2-Humble-Learning'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/install) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/log) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/log) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/log) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_cpp' with type 'ros.ament_cmake' and name 'action_tutorials_cpp'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/cpp_launch_example' with type 'ros.ament_cmake' and name 'cpp_launch_example'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameter_event_handler' with type 'ros.ament_cmake' and name 'cpp_parameter_event_handler'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/launch_tutorial' with type 'ros.ament_python' and name 'launch_tutorial'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_cpp' with type 'ros.ament_cmake' and name 'learning_tf2_cpp'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/learning_tf2_py' with type 'ros.ament_python' and name 'learning_tf2_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/my_package) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_base) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/py_launch_example' with type 'ros.ament_python' and name 'py_launch_example'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/ros_tutorials) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/roscpp_tutorials) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/rospy_tutorials) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/test_launch/__pycache__) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rohamzn/ROS2-Humble-Learning/src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

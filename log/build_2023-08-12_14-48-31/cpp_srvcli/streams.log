@@ -1,0 +1,94 @@
+[0.007s] Invoking command in '/home/rohamzn/ros2_test_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake /home/rohamzn/ros2_test_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/cpp_srvcli
+[0.049s] -- The C compiler identification is GNU 13.1.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /home/rohamzn/anaconda3/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.578s] -- Found Python3: /home/rohamzn/anaconda3/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.626s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.650s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.653s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.658s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.723s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.724s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.745s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.784s] -- Looking for pthread_create in pthreads
+[0.812s] -- Looking for pthread_create in pthreads - not found
+[0.812s] -- Looking for pthread_create in pthread
+[0.851s] -- Looking for pthread_create in pthread - found
+[0.852s] -- Found Threads: TRUE  
+[0.959s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.047s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.099s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.099s] -- Configured cppcheck include dirs: 
+[1.099s] -- Configured cppcheck exclude dirs and/or files: 
+[1.100s] -- Added test 'lint_cmake' to check CMake code style
+[1.100s] -- Added test 'uncrustify' to check C / C++ code style
+[1.100s] -- Configured uncrustify additional arguments: 
+[1.100s] -- Added test 'xmllint' to check XML markup files
+[1.101s] -- Configuring done (1.1s)
+[1.106s] [33mCMake Warning at CMakeLists.txt:25 (add_executable):
+[1.106s]   Cannot generate a safe runtime search path for target server because files
+[1.106s]   in some directories may conflict with libraries in implicit directories:
+[1.106s] 
+[1.106s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.106s]       /home/rohamzn/anaconda3/lib
+[1.106s] 
+[1.106s]   Some of these libraries may not be found correctly.
+[1.106s] 
+[1.106s] [0m
+[1.107s] [33mCMake Warning at CMakeLists.txt:28 (add_executable):
+[1.107s]   Cannot generate a safe runtime search path for target client because files
+[1.107s]   in some directories may conflict with libraries in implicit directories:
+[1.107s] 
+[1.107s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.107s]       /home/rohamzn/anaconda3/lib
+[1.107s] 
+[1.107s]   Some of these libraries may not be found correctly.
+[1.107s] 
+[1.107s] [0m
+[1.108s] -- Generating done (0.0s)
+[1.109s] -- Build files have been written to: /home/rohamzn/ros2_test_ws/build/cpp_srvcli
+[1.116s] Invoked command in '/home/rohamzn/ros2_test_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake /home/rohamzn/ros2_test_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/cpp_srvcli
+[1.116s] Invoking command in '/home/rohamzn/ros2_test_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/cpp_srvcli -- -j20 -l20
+[1.142s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.142s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.740s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.814s] [ 75%] Built target server
+[2.852s] [100%] [32m[1mLinking CXX executable client[0m
+[2.925s] [100%] Built target client
+[2.938s] Invoked command in '/home/rohamzn/ros2_test_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/cpp_srvcli -- -j20 -l20
+[2.982s] Invoking command in '/home/rohamzn/ros2_test_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/cpp_srvcli
+[2.996s] -- Install configuration: ""
+[2.996s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.997s] -- Set runtime path of "/home/rohamzn/ros2_test_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.997s] -- Set runtime path of "/home/rohamzn/ros2_test_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.997s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.998s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.998s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.998s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.001s] Invoked command in '/home/rohamzn/ros2_test_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/cpp_srvcli

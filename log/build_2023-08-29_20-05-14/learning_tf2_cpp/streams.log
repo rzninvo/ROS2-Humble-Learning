@@ -1,0 +1,133 @@
+[0.010s] Invoking command in '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib:/home/rohamzn/ros2_test_ws/install/polygon_plugins/lib:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/learning_tf2_cpp -- -j20 -l20
+[0.033s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.165s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.180s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.304s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.305s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.323s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.401s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[0.406s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.599s] -- Found turtlesim: 1.4.2 (/home/rohamzn/ros2_test_ws/install/turtlesim/share/turtlesim/cmake)
+[0.639s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.688s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.688s] -- Configured cppcheck include dirs: 
+[0.688s] -- Configured cppcheck exclude dirs and/or files: 
+[0.688s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.688s] -- Added test 'lint_cmake' to check CMake code style
+[0.688s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.689s] -- Added test 'uncrustify' to check C / C++ code style
+[0.689s] -- Configured uncrustify additional arguments: 
+[0.689s] -- Added test 'xmllint' to check XML markup files
+[0.689s] -- Configuring done (0.7s)
+[0.696s] [33mCMake Warning at CMakeLists.txt:16 (add_executable):
+[0.696s]   Cannot generate a safe runtime search path for target
+[0.696s]   static_turtle_tf2_broadcaster because files in some directories may
+[0.696s]   conflict with libraries in implicit directories:
+[0.696s] 
+[0.696s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.696s]       /home/rohamzn/anaconda3/lib
+[0.696s] 
+[0.697s]   Some of these libraries may not be found correctly.
+[0.697s] 
+[0.697s] [0m
+[0.698s] [33mCMake Warning at CMakeLists.txt:25 (add_executable):
+[0.698s]   Cannot generate a safe runtime search path for target
+[0.698s]   turtle_tf2_broadcaster because files in some directories may conflict with
+[0.698s]   libraries in implicit directories:
+[0.699s] 
+[0.699s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.699s]       /home/rohamzn/anaconda3/lib
+[0.699s] 
+[0.699s]   Some of these libraries may not be found correctly.
+[0.699s] 
+[0.699s] [0m
+[0.700s] [33mCMake Warning at CMakeLists.txt:35 (add_executable):
+[0.700s]   Cannot generate a safe runtime search path for target turtle_tf2_listener
+[0.701s]   because files in some directories may conflict with libraries in implicit
+[0.701s]   directories:
+[0.701s] 
+[0.701s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.701s]       /home/rohamzn/anaconda3/lib
+[0.701s] 
+[0.701s]   Some of these libraries may not be found correctly.
+[0.701s] 
+[0.701s] [0m
+[0.702s] [33mCMake Warning at CMakeLists.txt:45 (add_executable):
+[0.702s]   Cannot generate a safe runtime search path for target
+[0.702s]   turtle_tf2_listener_debug because files in some directories may conflict
+[0.702s]   with libraries in implicit directories:
+[0.702s] 
+[0.702s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.702s]       /home/rohamzn/anaconda3/lib
+[0.703s] 
+[0.703s]   Some of these libraries may not be found correctly.
+[0.703s] 
+[0.703s] [0m
+[0.704s] [33mCMake Warning at CMakeLists.txt:55 (add_executable):
+[0.704s]   Cannot generate a safe runtime search path for target
+[0.704s]   fixed_frame_tf2_broadcaster because files in some directories may conflict
+[0.704s]   with libraries in implicit directories:
+[0.704s] 
+[0.704s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.704s]       /home/rohamzn/anaconda3/lib
+[0.704s] 
+[0.704s]   Some of these libraries may not be found correctly.
+[0.704s] 
+[0.704s] [0m
+[0.706s] [33mCMake Warning at CMakeLists.txt:63 (add_executable):
+[0.706s]   Cannot generate a safe runtime search path for target
+[0.706s]   dynamic_frame_tf2_broadcaster because files in some directories may
+[0.706s]   conflict with libraries in implicit directories:
+[0.706s] 
+[0.706s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.706s]       /home/rohamzn/anaconda3/lib
+[0.706s] 
+[0.706s]   Some of these libraries may not be found correctly.
+[0.706s] 
+[0.706s] [0m
+[0.707s] -- Generating done (0.0s)
+[0.708s] -- Build files have been written to: /home/rohamzn/ros2_test_ws/build/learning_tf2_cpp
+[0.720s] [  8%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[0.724s] [ 25%] Built target turtle_tf2_broadcaster
+[0.724s] [ 41%] Built target static_turtle_tf2_broadcaster
+[0.724s] [ 58%] Built target turtle_tf2_listener
+[0.724s] [ 75%] Built target fixed_frame_tf2_broadcaster
+[0.724s] [ 91%] Built target dynamic_frame_tf2_broadcaster
+[3.404s] [100%] [32m[1mLinking CXX executable turtle_tf2_listener_debug[0m
+[3.542s] [100%] Built target turtle_tf2_listener_debug
+[3.547s] Invoked command in '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib:/home/rohamzn/ros2_test_ws/install/polygon_plugins/lib:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/learning_tf2_cpp -- -j20 -l20
+[3.603s] Invoking command in '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib:/home/rohamzn/ros2_test_ws/install/polygon_plugins/lib:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/learning_tf2_cpp
+[3.618s] -- Install configuration: ""
+[3.618s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[3.618s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[3.618s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[3.618s] -- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener_debug
+[3.619s] -- Set runtime path of "/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener_debug" to ""
+[3.619s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[3.619s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster
+[3.619s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[3.619s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[3.619s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py
+[3.620s] -- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/start_tf2_debug_demo.launch.py
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[3.620s] -- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[3.620s] -- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[3.620s] -- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[3.620s] -- Installing: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[3.620s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[3.623s] Invoked command in '/home/rohamzn/ros2_test_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_cpp:/home/rohamzn/ros2_test_ws/install/polygon_plugins:/home/rohamzn/ros2_test_ws/install/polygon_base:/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/more_interfaces:/home/rohamzn/ros2_test_ws/install/cpp_srvcli:/home/rohamzn/ros2_test_ws/install/cpp_pubsub:/home/rohamzn/ros2_test_ws/install/cpp_parameters:/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler:/home/rohamzn/ros2_test_ws/install/cpp_launch_example:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces:/home/rohamzn/ros2_test_ws/install/learning_tf2_py:/home/rohamzn/ros2_test_ws/install/py_launch_example:/home/rohamzn/ros2_test_ws/install/launch_tutorial:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib:/home/rohamzn/ros2_test_ws/install/polygon_plugins/lib:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_cpp/lib:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/py_launch_example/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/more_interfaces/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/rohamzn/ros2_test_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/learning_tf2_cpp

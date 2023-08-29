@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000102] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000111] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000118] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000126] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000133] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000139] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000146] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000153] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000160] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000167] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000175] (cpp_parameter_event_handler) JobQueued: {'identifier': 'cpp_parameter_event_handler', 'dependencies': OrderedDict()}
+[0.000185] (cpp_parameter_event_handler) JobStarted: {'identifier': 'cpp_parameter_event_handler'}
+[0.005274] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'cmake'}
+[0.005352] (cpp_parameter_event_handler) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '/home/rohamzn/ros2_test_ws/src/cpp_parameter_event_handler', '-DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler'], 'cwd': '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '2919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2645,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2645'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b86a79e4_5f62_40a7_b5d7_eeb9b10105e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099478] (-) TimerEvent: {}
+[0.109184] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.1.0\n'}
+[0.149125] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.163717] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199561] (-) TimerEvent: {}
+[0.200336] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.206717] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Check for working C compiler: /home/rohamzn/anaconda3/bin/cc - skipped\n'}
+[0.206979] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.207442] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212490] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.251796] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258622] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.258793] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.258924] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.260982] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299747] (-) TimerEvent: {}
+[0.400063] (-) TimerEvent: {}
+[0.500365] (-) TimerEvent: {}
+[0.600659] (-) TimerEvent: {}
+[0.630158] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found Python3: /home/rohamzn/anaconda3/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.684764] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700827] (-) TimerEvent: {}
+[0.708338] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.711357] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.716412] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.725301] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.737649] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.780444] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.781795] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.801001] (-) TimerEvent: {}
+[0.802333] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.808837] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.845197] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.845317] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.880260] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.880446] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.901218] (-) TimerEvent: {}
+[0.932570] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.933075] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001396] (-) TimerEvent: {}
+[1.031633] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.079945] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.080161] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.080225] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.080334] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.080905] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.080978] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.081102] (cpp_parameter_event_handler) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.081772] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.085598] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:12 (add_executable):\n'}
+[1.085710] (cpp_parameter_event_handler) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.085775] (cpp_parameter_event_handler) StderrLine: {'line': b'  parameter_event_handler because files in some directories may conflict with\n'}
+[1.085829] (cpp_parameter_event_handler) StderrLine: {'line': b'  libraries in implicit directories:\n'}
+[1.085887] (cpp_parameter_event_handler) StderrLine: {'line': b'\n'}
+[1.085943] (cpp_parameter_event_handler) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.086001] (cpp_parameter_event_handler) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[1.086056] (cpp_parameter_event_handler) StderrLine: {'line': b'\n'}
+[1.086111] (cpp_parameter_event_handler) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.086170] (cpp_parameter_event_handler) StderrLine: {'line': b'\n'}
+[1.086227] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[0m\n'}
+[1.086383] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.086990] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Build files have been written to: /home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler\n'}
+[1.093706] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[1.094509] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'build'}
+[1.094543] (cpp_parameter_event_handler) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--build', '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler', '--', '-j20', '-l20'], 'cwd': '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '2919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2645,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2645'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b86a79e4_5f62_40a7_b5d7_eeb9b10105e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.101519] (-) TimerEvent: {}
+[1.120158] (cpp_parameter_event_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o\x1b[0m\n'}
+[1.201617] (-) TimerEvent: {}
+[1.301842] (-) TimerEvent: {}
+[1.402103] (-) TimerEvent: {}
+[1.502429] (-) TimerEvent: {}
+[1.602757] (-) TimerEvent: {}
+[1.703021] (-) TimerEvent: {}
+[1.803374] (-) TimerEvent: {}
+[1.903696] (-) TimerEvent: {}
+[2.004018] (-) TimerEvent: {}
+[2.104344] (-) TimerEvent: {}
+[2.204657] (-) TimerEvent: {}
+[2.304884] (-) TimerEvent: {}
+[2.405112] (-) TimerEvent: {}
+[2.505435] (-) TimerEvent: {}
+[2.605663] (-) TimerEvent: {}
+[2.705921] (-) TimerEvent: {}
+[2.806233] (-) TimerEvent: {}
+[2.906535] (-) TimerEvent: {}
+[3.006827] (-) TimerEvent: {}
+[3.107150] (-) TimerEvent: {}
+[3.207471] (-) TimerEvent: {}
+[3.307793] (-) TimerEvent: {}
+[3.408068] (-) TimerEvent: {}
+[3.508303] (-) TimerEvent: {}
+[3.608626] (-) TimerEvent: {}
+[3.708979] (-) TimerEvent: {}
+[3.809218] (-) TimerEvent: {}
+[3.909582] (-) TimerEvent: {}
+[4.009812] (-) TimerEvent: {}
+[4.110170] (-) TimerEvent: {}
+[4.210510] (-) TimerEvent: {}
+[4.310819] (-) TimerEvent: {}
+[4.411160] (-) TimerEvent: {}
+[4.511511] (-) TimerEvent: {}
+[4.611860] (-) TimerEvent: {}
+[4.712198] (-) TimerEvent: {}
+[4.812541] (-) TimerEvent: {}
+[4.912811] (-) TimerEvent: {}
+[4.977649] (cpp_parameter_event_handler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable parameter_event_handler\x1b[0m\n'}
+[5.012938] (-) TimerEvent: {}
+[5.113191] (-) TimerEvent: {}
+[5.143317] (cpp_parameter_event_handler) StdoutLine: {'line': b'[100%] Built target parameter_event_handler\n'}
+[5.148530] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[5.173491] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'install'}
+[5.190339] (cpp_parameter_event_handler) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--install', '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler'], 'cwd': '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '2919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2645,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2645'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b86a79e4_5f62_40a7_b5d7_eeb9b10105e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/cpp_parameter_event_handler'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.203046] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.203339] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler\n'}
+[5.204942] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Set runtime path of "/home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""\n'}
+[5.205041] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler\n'}
+[5.205115] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler\n'}
+[5.205182] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh\n'}
+[5.205253] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv\n'}
+[5.205318] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh\n'}
+[5.205394] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv\n'}
+[5.205454] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash\n'}
+[5.205538] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh\n'}
+[5.205605] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh\n'}
+[5.205640] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv\n'}
+[5.205665] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv\n'}
+[5.205690] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler\n'}
+[5.205715] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake\n'}
+[5.205738] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake\n'}
+[5.205761] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml\n'}
+[5.208304] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[5.214398] (-) TimerEvent: {}
+[5.245193] (cpp_parameter_event_handler) JobEnded: {'identifier': 'cpp_parameter_event_handler', 'rc': 0}
+[5.245437] (-) EventReactorShutdown: {}

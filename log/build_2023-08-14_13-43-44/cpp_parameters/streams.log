@@ -1,0 +1,27 @@
+[0.025s] Invoking command in '/home/rohamzn/ros2_test_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/cpp_parameters -- -j20 -l20
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[1.841s] [100%] [32m[1mLinking CXX executable minimal_param_node[0m
+[1.918s] [100%] Built target minimal_param_node
+[1.924s] Invoked command in '/home/rohamzn/ros2_test_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/cpp_parameters -- -j20 -l20
+[1.950s] Invoking command in '/home/rohamzn/ros2_test_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/cpp_parameters
+[1.965s] -- Install configuration: ""
+[1.966s] -- Installing: /home/rohamzn/ros2_test_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[1.966s] -- Set runtime path of "/home/rohamzn/ros2_test_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""
+[1.966s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/launch
+[1.966s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.967s] -- Up-to-date: /home/rohamzn/ros2_test_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.972s] Invoked command in '/home/rohamzn/ros2_test_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/cpp_parameters

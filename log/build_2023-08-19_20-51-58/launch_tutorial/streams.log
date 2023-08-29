@@ -1,0 +1,38 @@
+[0.698s] Invoking command in '/home/rohamzn/ros2_test_ws/src/launch_tutorial': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ros2_test_ws/build/launch_tutorial/prefix_override:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/rohamzn/ros2_test_ws/build/launch_tutorial/build install --record /home/rohamzn/ros2_test_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[0.854s] running egg_info
+[0.855s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[0.855s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.855s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.855s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.855s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.856s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.856s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.856s]   warnings.warn(
+[0.856s] running build
+[0.856s] running build_py
+[0.856s] creating /home/rohamzn/ros2_test_ws/build/launch_tutorial/build
+[0.857s] creating /home/rohamzn/ros2_test_ws/build/launch_tutorial/build/lib
+[0.857s] creating /home/rohamzn/ros2_test_ws/build/launch_tutorial/build/lib/launch_tutorial
+[0.857s] copying launch_tutorial/__init__.py -> /home/rohamzn/ros2_test_ws/build/launch_tutorial/build/lib/launch_tutorial
+[0.857s] running install
+[0.857s] running install_lib
+[0.857s] creating /home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[0.857s] copying /home/rohamzn/ros2_test_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[0.857s] byte-compiling /home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[0.857s] running install_data
+[0.858s] creating /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/ament_index
+[0.858s] creating /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/ament_index/resource_index
+[0.858s] creating /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[0.858s] copying resource/launch_tutorial -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[0.858s] copying package.xml -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial
+[0.858s] creating /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.858s] copying launch/example_substitutions.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.858s] copying launch/example_main.launch.py -> /home/rohamzn/ros2_test_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.858s] running install_egg_info
+[0.859s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[0.859s] running install_scripts
+[0.871s] writing list of installed files to '/home/rohamzn/ros2_test_ws/build/launch_tutorial/install.log'
+[0.892s] Invoked command in '/home/rohamzn/ros2_test_ws/src/launch_tutorial' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ros2_test_ws/build/launch_tutorial/prefix_override:/home/rohamzn/ros2_test_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/rohamzn/ros2_test_ws/build/launch_tutorial/build install --record /home/rohamzn/ros2_test_ws/build/launch_tutorial/install.log --single-version-externally-managed

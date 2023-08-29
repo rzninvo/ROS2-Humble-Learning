@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000098] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000108] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000117] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.005445] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.005565] (cpp_pubsub) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '/home/rohamzn/ros2_test_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/cpp_pubsub'], 'cwd': '/home/rohamzn/ros2_test_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7f27d7d8f9ee6eb82a097d6564d5f52d'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2797,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2797'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30174099_3bce_4b07_9137_3c8f6ee1eb33'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/turtlesim:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7f27d7d8f9ee6eb82a097d6564d5f52d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.045733] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.1.0\n'}
+[0.079614] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.092019] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099090] (-) TimerEvent: {}
+[0.129999] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.136664] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /home/rohamzn/anaconda3/bin/cc - skipped\n'}
+[0.136876] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.136940] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.142200] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184137] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.190957] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.191031] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.191403] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.192710] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199352] (-) TimerEvent: {}
+[0.299539] (-) TimerEvent: {}
+[0.399825] (-) TimerEvent: {}
+[0.500136] (-) TimerEvent: {}
+[0.566030] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /home/rohamzn/anaconda3/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.600382] (-) TimerEvent: {}
+[0.613945] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.638172] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.641195] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.646161] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.655198] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.667700] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700488] (-) TimerEvent: {}
+[0.710896] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.712395] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.733061] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.739371] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.773311] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.773547] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.799006] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.799118] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.800612] (-) TimerEvent: {}
+[0.830635] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.831239] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900812] (-) TimerEvent: {}
+[0.973185] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[0.977564] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:16 (add_executable):\n'}
+[0.977666] (cpp_pubsub) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target talker because files\n'}
+[0.977698] (cpp_pubsub) StderrLine: {'line': b'  in some directories may conflict with libraries in implicit directories:\n'}
+[0.977730] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.977756] (cpp_pubsub) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.977783] (cpp_pubsub) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.977807] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.977832] (cpp_pubsub) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.977857] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.977880] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.978884] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:19 (add_executable):\n'}
+[0.978945] (cpp_pubsub) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target listener because\n'}
+[0.978975] (cpp_pubsub) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[0.979000] (cpp_pubsub) StderrLine: {'line': b'  directories:\n'}
+[0.979023] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.979049] (cpp_pubsub) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.979073] (cpp_pubsub) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[0.979097] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.979120] (cpp_pubsub) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.979143] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.979181] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.979486] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.980411] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/rohamzn/ros2_test_ws/build/cpp_pubsub\n'}
+[0.987733] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.987963] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.987978] (cpp_pubsub) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--build', '/home/rohamzn/ros2_test_ws/build/cpp_pubsub', '--', '-j20', '-l20'], 'cwd': '/home/rohamzn/ros2_test_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7f27d7d8f9ee6eb82a097d6564d5f52d'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2797,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2797'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30174099_3bce_4b07_9137_3c8f6ee1eb33'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/turtlesim:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7f27d7d8f9ee6eb82a097d6564d5f52d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[1.000910] (-) TimerEvent: {}
+[1.012891] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.013046] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.101132] (-) TimerEvent: {}
+[1.201498] (-) TimerEvent: {}
+[1.301765] (-) TimerEvent: {}
+[1.402038] (-) TimerEvent: {}
+[1.502297] (-) TimerEvent: {}
+[1.602614] (-) TimerEvent: {}
+[1.702959] (-) TimerEvent: {}
+[1.803212] (-) TimerEvent: {}
+[1.903522] (-) TimerEvent: {}
+[2.003847] (-) TimerEvent: {}
+[2.104193] (-) TimerEvent: {}
+[2.204409] (-) TimerEvent: {}
+[2.304723] (-) TimerEvent: {}
+[2.405069] (-) TimerEvent: {}
+[2.505316] (-) TimerEvent: {}
+[2.605627] (-) TimerEvent: {}
+[2.705880] (-) TimerEvent: {}
+[2.806091] (-) TimerEvent: {}
+[2.906330] (-) TimerEvent: {}
+[3.006658] (-) TimerEvent: {}
+[3.102010] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.106760] (-) TimerEvent: {}
+[3.192041] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[3.206937] (-) TimerEvent: {}
+[3.307218] (-) TimerEvent: {}
+[3.407523] (-) TimerEvent: {}
+[3.507834] (-) TimerEvent: {}
+[3.608140] (-) TimerEvent: {}
+[3.708456] (-) TimerEvent: {}
+[3.808759] (-) TimerEvent: {}
+[3.909063] (-) TimerEvent: {}
+[4.009386] (-) TimerEvent: {}
+[4.109684] (-) TimerEvent: {}
+[4.209924] (-) TimerEvent: {}
+[4.310140] (-) TimerEvent: {}
+[4.410374] (-) TimerEvent: {}
+[4.510608] (-) TimerEvent: {}
+[4.610910] (-) TimerEvent: {}
+[4.711152] (-) TimerEvent: {}
+[4.811462] (-) TimerEvent: {}
+[4.911790] (-) TimerEvent: {}
+[4.931828] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.011980] (-) TimerEvent: {}
+[5.101808] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.112141] (-) TimerEvent: {}
+[5.115066] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.143740] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[5.161328] (cpp_pubsub) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--install', '/home/rohamzn/ros2_test_ws/build/cpp_pubsub'], 'cwd': '/home/rohamzn/ros2_test_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7f27d7d8f9ee6eb82a097d6564d5f52d'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2797,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2797'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30174099_3bce_4b07_9137_3c8f6ee1eb33'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/turtlesim:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7f27d7d8f9ee6eb82a097d6564d5f52d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohamzn/ros2_test_ws/install/turtlesim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohamzn/ros2_test_ws/install/my_package:/home/rohamzn/ros2_test_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[5.176849] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.176942] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[5.177642] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/rohamzn/ros2_test_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[5.177677] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[5.179306] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/rohamzn/ros2_test_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[5.179382] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[5.179416] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[5.179443] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[5.179469] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[5.179495] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[5.179519] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[5.179691] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[5.179758] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[5.179793] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[5.179818] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[5.179843] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[5.179870] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[5.179897] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[5.179923] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[5.179980] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[5.184574] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.212209] (-) TimerEvent: {}
+[5.223437] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[5.223639] (-) EventReactorShutdown: {}

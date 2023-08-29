@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying learning_tf2_py/turtle_tf2_broadcaster.py -> /home/rohamzn/ros2_test_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+running install
+running install_lib
+copying /home/rohamzn/ros2_test_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+byte-compiling /home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+running install_data
+copying package.xml -> /home/rohamzn/ros2_test_ws/install/learning_tf2_py/share/learning_tf2_py
+creating /home/rohamzn/ros2_test_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+copying launch/turtle_tf2_demo.launch.py -> /home/rohamzn/ros2_test_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+running install_egg_info
+removing '/home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing static_turtle_tf2_broadcaster script to /home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/learning_tf2_py
+Installing turtle_tf2_broadcaster script to /home/rohamzn/ros2_test_ws/install/learning_tf2_py/lib/learning_tf2_py
+writing list of installed files to '/home/rohamzn/ros2_test_ws/build/learning_tf2_py/install.log'
