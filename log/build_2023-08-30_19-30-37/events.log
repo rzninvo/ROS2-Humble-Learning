@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000793] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000818] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000827] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.000833] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.000839] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000845] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000851] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000857] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.000880] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.000886] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.000892] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000899] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000905] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000911] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000917] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.000923] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000929] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000937] (bag_recorder_nodes) JobQueued: {'identifier': 'bag_recorder_nodes', 'dependencies': OrderedDict()}
+[0.000946] (bag_recorder_nodes) JobStarted: {'identifier': 'bag_recorder_nodes'}
+[0.007909] (bag_recorder_nodes) JobProgress: {'identifier': 'bag_recorder_nodes', 'progress': 'cmake'}
+[0.008126] (bag_recorder_nodes) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '/home/rohamzn/ros2_test_ws/src/bag_recorder_nodes', '-DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/bag_recorder_nodes'], 'cwd': '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2761'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b30d3daab4ff9f9f4e965f964ef1777'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2761,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df21ef52_330a_42ef_a35f_fecc008ca213'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b30d3daab4ff9f9f4e965f964ef1777'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100042] (-) TimerEvent: {}
+[0.116107] (bag_recorder_nodes) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.1.0\n'}
+[0.177779] (bag_recorder_nodes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.192269] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200106] (-) TimerEvent: {}
+[0.229083] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.235695] (bag_recorder_nodes) StdoutLine: {'line': b'-- Check for working C compiler: /home/rohamzn/anaconda3/bin/cc - skipped\n'}
+[0.235801] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.236178] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.241714] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.282343] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.288741] (bag_recorder_nodes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.288833] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.289040] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.292475] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300175] (-) TimerEvent: {}
+[0.400398] (-) TimerEvent: {}
+[0.500637] (-) TimerEvent: {}
+[0.600944] (-) TimerEvent: {}
+[0.662238] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found Python3: /home/rohamzn/anaconda3/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.701060] (-) TimerEvent: {}
+[0.727723] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.757371] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.761295] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.768569] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.781570] (bag_recorder_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800199] (bag_recorder_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801119] (-) TimerEvent: {}
+[0.901303] (-) TimerEvent: {}
+[0.907566] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.953980] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.956124] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.982797] (bag_recorder_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.993008] (bag_recorder_nodes) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001378] (-) TimerEvent: {}
+[1.034431] (bag_recorder_nodes) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.034545] (bag_recorder_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.070581] (bag_recorder_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.070850] (bag_recorder_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.101597] (-) TimerEvent: {}
+[1.108111] (bag_recorder_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.108899] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201683] (-) TimerEvent: {}
+[1.220206] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.7 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.257845] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301768] (-) TimerEvent: {}
+[1.316448] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.316569] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.316631] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.317067] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.317785] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.317867] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.318135] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.318998] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.324333] (bag_recorder_nodes) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:20 (add_executable):\n'}
+[1.324478] (bag_recorder_nodes) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target simple_bag_recorder\n'}
+[1.324525] (bag_recorder_nodes) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[1.324553] (bag_recorder_nodes) StderrLine: {'line': b'  directories:\n'}
+[1.324579] (bag_recorder_nodes) StderrLine: {'line': b'\n'}
+[1.324603] (bag_recorder_nodes) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.324631] (bag_recorder_nodes) StderrLine: {'line': b'      /home/rohamzn/anaconda3/lib\n'}
+[1.324653] (bag_recorder_nodes) StderrLine: {'line': b'\n'}
+[1.324675] (bag_recorder_nodes) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.324696] (bag_recorder_nodes) StderrLine: {'line': b'\n'}
+[1.324717] (bag_recorder_nodes) StderrLine: {'line': b'\x1b[0m\n'}
+[1.324966] (bag_recorder_nodes) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.325854] (bag_recorder_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes\n'}
+[1.333250] (bag_recorder_nodes) CommandEnded: {'returncode': 0}
+[1.333496] (bag_recorder_nodes) JobProgress: {'identifier': 'bag_recorder_nodes', 'progress': 'build'}
+[1.334288] (bag_recorder_nodes) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--build', '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes', '--', '-j20', '-l20'], 'cwd': '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2761'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b30d3daab4ff9f9f4e965f964ef1777'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2761,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df21ef52_330a_42ef_a35f_fecc008ca213'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b30d3daab4ff9f9f4e965f964ef1777'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.365193] (bag_recorder_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_bag_recorder.dir/src/simple_bag_recorder.cpp.o\x1b[0m\n'}
+[1.401847] (-) TimerEvent: {}
+[1.502165] (-) TimerEvent: {}
+[1.602474] (-) TimerEvent: {}
+[1.702781] (-) TimerEvent: {}
+[1.802993] (-) TimerEvent: {}
+[1.903234] (-) TimerEvent: {}
+[2.003582] (-) TimerEvent: {}
+[2.103949] (-) TimerEvent: {}
+[2.204157] (-) TimerEvent: {}
+[2.304421] (-) TimerEvent: {}
+[2.404688] (-) TimerEvent: {}
+[2.504961] (-) TimerEvent: {}
+[2.605216] (-) TimerEvent: {}
+[2.705579] (-) TimerEvent: {}
+[2.805849] (-) TimerEvent: {}
+[2.906202] (-) TimerEvent: {}
+[3.006530] (-) TimerEvent: {}
+[3.106780] (-) TimerEvent: {}
+[3.207094] (-) TimerEvent: {}
+[3.307340] (-) TimerEvent: {}
+[3.407577] (-) TimerEvent: {}
+[3.507887] (-) TimerEvent: {}
+[3.608127] (-) TimerEvent: {}
+[3.708357] (-) TimerEvent: {}
+[3.808601] (-) TimerEvent: {}
+[3.908838] (-) TimerEvent: {}
+[4.009046] (-) TimerEvent: {}
+[4.109271] (-) TimerEvent: {}
+[4.209569] (-) TimerEvent: {}
+[4.309874] (-) TimerEvent: {}
+[4.410105] (-) TimerEvent: {}
+[4.510414] (-) TimerEvent: {}
+[4.610657] (-) TimerEvent: {}
+[4.711038] (-) TimerEvent: {}
+[4.811385] (-) TimerEvent: {}
+[4.911730] (-) TimerEvent: {}
+[5.011961] (-) TimerEvent: {}
+[5.112213] (-) TimerEvent: {}
+[5.212457] (-) TimerEvent: {}
+[5.312755] (-) TimerEvent: {}
+[5.413055] (-) TimerEvent: {}
+[5.460035] (bag_recorder_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_bag_recorder\x1b[0m\n'}
+[5.513141] (-) TimerEvent: {}
+[5.613450] (-) TimerEvent: {}
+[5.667726] (bag_recorder_nodes) StdoutLine: {'line': b'[100%] Built target simple_bag_recorder\n'}
+[5.673288] (bag_recorder_nodes) CommandEnded: {'returncode': 0}
+[5.697903] (bag_recorder_nodes) JobProgress: {'identifier': 'bag_recorder_nodes', 'progress': 'install'}
+[5.713550] (-) TimerEvent: {}
+[5.714575] (bag_recorder_nodes) Command: {'cmd': ['/home/rohamzn/.local/bin/cmake', '--install', '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes'], 'cwd': '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'rohamzn'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rohamzn'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rohamzn/ros2_test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2761'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b30d3daab4ff9f9f4e965f964ef1777'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohamzn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohamzn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/rohamzn/anaconda3/bin:/home/rohamzn/anaconda3/condabin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rohamzn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohamzn-ROG-Strix-G533ZX-G533ZX:@/tmp/.ICE-unix/2761,unix/rohamzn-ROG-Strix-G533ZX-G533ZX:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df21ef52_330a_42ef_a35f_fecc008ca213'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rohamzn/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rohamzn/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5b30d3daab4ff9f9f4e965f964ef1777'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('CONDA_PREFIX', '/home/rohamzn/anaconda3'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.728857] (bag_recorder_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.729008] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder\n'}
+[5.730783] (bag_recorder_nodes) StdoutLine: {'line': b'-- Set runtime path of "/home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder" to ""\n'}
+[5.730871] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes\n'}
+[5.730906] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes\n'}
+[5.730934] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh\n'}
+[5.730961] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv\n'}
+[5.730987] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh\n'}
+[5.731013] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv\n'}
+[5.731053] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash\n'}
+[5.731079] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh\n'}
+[5.731103] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh\n'}
+[5.731138] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv\n'}
+[5.731162] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv\n'}
+[5.731186] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes\n'}
+[5.731209] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake\n'}
+[5.731231] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake\n'}
+[5.731252] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml\n'}
+[5.734639] (bag_recorder_nodes) CommandEnded: {'returncode': 0}
+[5.775426] (bag_recorder_nodes) JobEnded: {'identifier': 'bag_recorder_nodes', 'rc': 0}
+[5.775734] (-) EventReactorShutdown: {}

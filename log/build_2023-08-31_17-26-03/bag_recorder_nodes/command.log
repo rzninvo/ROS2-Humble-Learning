@@ -1,0 +1,2 @@
+Invoking command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes -- -j20 -l20
+Invoked command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes -- -j20 -l20

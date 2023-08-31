@@ -1,0 +1,81 @@
+[0.008s] Invoking command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake /home/rohamzn/ros2_test_ws/src/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/bag_recorder_nodes
+[0.115s] -- The C compiler identification is GNU 13.1.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /home/rohamzn/anaconda3/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.661s] -- Found Python3: /home/rohamzn/anaconda3/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.727s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.756s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.760s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.768s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.953s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.955s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.982s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.034s] -- Looking for pthread_create in pthreads
+[1.070s] -- Looking for pthread_create in pthreads - not found
+[1.070s] -- Looking for pthread_create in pthread
+[1.107s] -- Looking for pthread_create in pthread - found
+[1.108s] -- Found Threads: TRUE  
+[1.219s] -- Found rosbag2_cpp: 0.15.7 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.257s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.316s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.316s] -- Configured cppcheck include dirs: 
+[1.316s] -- Configured cppcheck exclude dirs and/or files: 
+[1.316s] -- Added test 'lint_cmake' to check CMake code style
+[1.317s] -- Added test 'uncrustify' to check C / C++ code style
+[1.317s] -- Configured uncrustify additional arguments: 
+[1.317s] -- Added test 'xmllint' to check XML markup files
+[1.318s] -- Configuring done (1.3s)
+[1.323s] [33mCMake Warning at CMakeLists.txt:20 (add_executable):
+[1.324s]   Cannot generate a safe runtime search path for target simple_bag_recorder
+[1.324s]   because files in some directories may conflict with libraries in implicit
+[1.324s]   directories:
+[1.324s] 
+[1.324s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.324s]       /home/rohamzn/anaconda3/lib
+[1.324s] 
+[1.324s]   Some of these libraries may not be found correctly.
+[1.324s] 
+[1.324s] [0m
+[1.324s] -- Generating done (0.0s)
+[1.325s] -- Build files have been written to: /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes
+[1.332s] Invoked command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake /home/rohamzn/ros2_test_ws/src/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/rohamzn/ros2_test_ws/install/bag_recorder_nodes
+[1.334s] Invoking command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes -- -j20 -l20
+[1.364s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_recorder.dir/src/simple_bag_recorder.cpp.o[0m
+[5.459s] [100%] [32m[1mLinking CXX executable simple_bag_recorder[0m
+[5.667s] [100%] Built target simple_bag_recorder
+[5.672s] Invoked command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --build /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes -- -j20 -l20
+[5.714s] Invoking command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes
+[5.728s] -- Install configuration: ""
+[5.728s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+[5.730s] -- Set runtime path of "/home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder" to ""
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+[5.730s] -- Installing: /home/rohamzn/ros2_test_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml
+[5.734s] Invoked command in '/home/rohamzn/ros2_test_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/rohamzn/.local/bin/cmake --install /home/rohamzn/ros2_test_ws/build/bag_recorder_nodes

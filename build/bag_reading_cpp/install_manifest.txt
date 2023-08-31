@@ -1,0 +1,16 @@
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.dsv
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.sh
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.dsv
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.bash
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.sh
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.zsh
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.dsv
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/ament_index/resource_index/packages/bag_reading_cpp
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig.cmake
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig-version.cmake
+/home/rohamzn/ros2_test_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.xml
