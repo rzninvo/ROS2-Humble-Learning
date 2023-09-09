@@ -8,4 +8,4 @@ Most of the packages in the workspace are written according to the [`ROS2 Humble
 Some of the packages are written according to the [`ROS2 Industrial Training`](https://industrial-training-master.readthedocs.io/en/humble/index.html) docs.
 
 ## Notable Packages:
-* [ROS2 PCL Training Package](https://github.com/rzninvo/ROS2-Humble-Learning/tree/main/src/lesson_perception): A package from the ROS2 Industrial Training docs that covers how to write **Pointcloud Perception Nodes**. 
+* [ROS2 PCL Training Package](https://github.com/rzninvo/ROS2-Humble-Learning/tree/main/src/lesson_perception): A package from the ROS2 Industrial Training docs that covers on how to write **Pointcloud Perception Nodes**. 
